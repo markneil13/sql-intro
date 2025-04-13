@@ -1,0 +1,2 @@
+CREATE VIEW scifi_books AS
+SELECT title, author FROM books WHERE genre = 'Science Fiction';
